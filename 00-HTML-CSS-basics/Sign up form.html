@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario</title>
+	<meta charset="Utf-8">
+</head>
+<body>
+	<h3>User form</h3>
+    <form>
+	   First name: <input type="text" name="first_name" id="first_name" required/><br>
+	   Last name: <input type="text" name="last_name" id="last_name" required/><br>
+	   Mail: <input type="email" name="mail" id="mail" value="" required /><br>
+	   Birthday: <input type="date" data-format="EE, MMMM dd'th' yyyy"/><br>
+	   Favourite sport:
+	   <select name="Favourite_sport" id="Favourite_sport">
+	      <option disabled selected value></option>
+	      <option>Futbol</option>	
+	      <option>Voley</option>
+	      <option>Rugby</option>
+	      <option>Basquet</option>
+	      <option>Tenis</option>
+	      <option>Golf</option>
+	   </select><br>
+	   Biography: <textarea name="Biography" id="Biography" rows="4" cols="20" required ></textarea><br>
+	  <button type="submit" value="Submit">Submit</button>
+	  <button type="reset" value="reset">Reset</button>
+    </form>
+</body>
+</html>
